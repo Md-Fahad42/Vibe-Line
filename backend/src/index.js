@@ -20,7 +20,7 @@ app.use(express.json({ limit: "5mb" }));
 app.use(cookieParser());
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL,
+    origin: "https://vibe-line-orcin.vercel.app/",
     credentials: true,
   })
 );
