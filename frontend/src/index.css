@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* DaisyUI v5/v4 compatible plugin loading */
+@plugin "daisyui" {
+  /* Ye aapke constants/index.js mein maujood saare themes ko enable kar dega */
+  themes: all; 
+ 
+}
+
